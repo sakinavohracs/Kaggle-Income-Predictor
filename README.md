@@ -1,14 +1,20 @@
 # Kaggle-Income-Predictor
 
 
-Packages used : 
-SimpleImputer
-train_test_split
-numpy
-matplotlib
-pandas
-preprocessing
-LGBMRegressor
+
+#Import : 
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.impute import SimpleImputer
+rom sklearn import preprocessing
+from lightgbm import LGBMRegressor
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
+from math import sqrt
+```
 
 For Missing Values : 
 - Converted all unknown values, (0, unknown, no) to #N/A
