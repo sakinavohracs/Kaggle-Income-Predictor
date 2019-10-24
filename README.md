@@ -1,6 +1,7 @@
 # Kaggle-Income-Predictor
 
-
+Training data set : Training.csv 
+Test Data set : Testing.csv
 
 # Import all below libaries: 
 ```python
@@ -52,7 +53,7 @@ Please refer [Simple Imputer](https://www.kaggle.com/alexisbcook/missing-values)
 
 # Prediction Model: 
 LGBMRegressor
-Please refer [LGBMRegressor] (https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMRegressor.html) for LGBMRegressor Documentation
+Please refer [LGBMRegressor](https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMRegressor.html) for LGBMRegressor Documentation
 
 ```
 model = LGBMRegressor(random_state=40, n_estimators=2100, boosting_type='gbdt', learning_rate=0.0072,
